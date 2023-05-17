@@ -1,5 +1,5 @@
 # Java Programming - MOOC.fi
-This repository contains all my solutiones to the exercises required for the Java Programming course given by the University of Helsinki. It includes both Java Programming I and Java Programming II courses. The structure of this repository is as follows:
+This repository contains all my solutions to the exercises required for the Java Programming course given by the University of Helsinki. It includes both Java Programming I and Java Programming II courses. The structure of this repository is as follows:
 - README
 - Java Programming I
   - Part 1
