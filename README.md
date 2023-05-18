@@ -19,4 +19,5 @@ This repository contains all my solutions to the exercises required for the [Jav
   - Part 14
  
 Thanks to University of Helsinki for this excellent course.
-![Java Programming I Certificate](https://certificates.mooc.fi/validate/mgp87sf87ka)
+[Java Programming I Certificate](https://certificates.mooc.fi/validate/mgp87sf87ka)
+[Java Programming II Certificate](https://certificates.mooc.fi/validate/osz7o307won)
