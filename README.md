@@ -17,3 +17,5 @@ This repository contains all my solutions to the exercises required for the [Jav
   - Part 12
   - Part 13
   - Part 14
+Thank you to University of Helsinki for this excellent course.
+[Java Programming I](https://certificates.mooc.fi/validate/mgp87sf87ka)
