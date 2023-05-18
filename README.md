@@ -19,6 +19,8 @@ The structure of this repository is as follows:
   - Part 12
   - Part 13
   - Part 14
+ - Java Programming I Certificate
+ - Java Programming II Certificate
  
 Thanks to University of Helsinki for this excellent course.
 
