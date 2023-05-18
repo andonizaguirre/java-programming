@@ -26,10 +26,10 @@ Thanks to University of Helsinki for this excellent course.
 [Java Programming I Certificate](https://certificates.mooc.fi/validate/mgp87sf87ka)
 
 
-![Java Programming I Certificate](certificate-java-programming-i.png)
+![Java Programming I Certificate](certificate-java-programming-i.png "Java Programming I Certificate")
 
 
 [Java Programming II Certificate](https://certificates.mooc.fi/validate/osz7o307won)
 
 
-![Java Programming II Certificate](certificate-java-programming-ii.png)
+![Java Programming II Certificate](certificate-java-programming-ii.png "Java Programming II Certificate")
