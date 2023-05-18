@@ -2,7 +2,6 @@
 This repository contains all my solutions to the exercises required for the [Java Programming](https://java-programming.mooc.fi/) course given by the University of Helsinki. It includes both Java Programming I and Java Programming II courses.
 
 The structure of this repository is as follows:
-- README
 - Java Programming I
   - Part 1
   - Part 2
@@ -19,19 +18,13 @@ The structure of this repository is as follows:
   - Part 12
   - Part 13
   - Part 14
- - Java Programming I Certificate
- - Java Programming II Certificate
  
 Thanks to University of Helsinki for this excellent course.
 
-
 [Java Programming I Certificate](https://certificates.mooc.fi/validate/mgp87sf87ka)
-
 
 ![Java Programming I Certificate](certificate-java-programming-i.png "Java Programming I Certificate")
 
-
 [Java Programming II Certificate](https://certificates.mooc.fi/validate/osz7o307won)
-
 
 ![Java Programming II Certificate](certificate-java-programming-ii.png "Java Programming II Certificate")
