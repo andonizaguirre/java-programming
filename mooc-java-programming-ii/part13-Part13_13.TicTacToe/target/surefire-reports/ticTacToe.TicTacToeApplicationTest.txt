@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: ticTacToe.TicTacToeApplicationTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 6.48 s <<< FAILURE! - in ticTacToe.TicTacToeApplicationTest
+turnChangesWhenGameIsPlayed(ticTacToe.TicTacToeApplicationTest)  Time elapsed: 2.049 s  <<< FAILURE!
+java.lang.AssertionError: When the button is clicked and it's O's turn, the text contained by the button should becode 0. Now the text became:  
+	at ticTacToe.TicTacToeApplicationTest.checkTurnChange(TicTacToeApplicationTest.java:130)
+	at ticTacToe.TicTacToeApplicationTest.turnChangesWhenGameIsPlayed(TicTacToeApplicationTest.java:102)
+
+turnChangesWhenGameIsPlayed2(ticTacToe.TicTacToeApplicationTest)  Time elapsed: 0.724 s  <<< FAILURE!
+java.lang.AssertionError: When the button is clicked and it's the X turn, the text in the button should be X. Not the text in the button was:  
+	at ticTacToe.TicTacToeApplicationTest.checkTurnChange(TicTacToeApplicationTest.java:125)
+	at ticTacToe.TicTacToeApplicationTest.turnChangesWhenGameIsPlayed2(TicTacToeApplicationTest.java:108)
+
+turnChangesWhenGameIsPlayed3(ticTacToe.TicTacToeApplicationTest)  Time elapsed: 0.833 s  <<< FAILURE!
+java.lang.AssertionError: When the button is clicked and it's O's turn, the text contained by the button should becode 0. Now the text became:  
+	at ticTacToe.TicTacToeApplicationTest.checkTurnChange(TicTacToeApplicationTest.java:130)
+	at ticTacToe.TicTacToeApplicationTest.turnChangesWhenGameIsPlayed3(TicTacToeApplicationTest.java:114)
+
+samePositionCannotBePlayedTwice2(ticTacToe.TicTacToeApplicationTest)  Time elapsed: 0.606 s  <<< FAILURE!
+java.lang.AssertionError: When the button is clicked and it's the X turn, the text in the button should be X. Not the text in the button was:  
+	at ticTacToe.TicTacToeApplicationTest.checkThatSamePositionCannotBePlayedTwice(TicTacToeApplicationTest.java:200)
+	at ticTacToe.TicTacToeApplicationTest.samePositionCannotBePlayedTwice2(TicTacToeApplicationTest.java:144)
+
+gameCanBeWonOrLost(ticTacToe.TicTacToeApplicationTest)  Time elapsed: 0.536 s  <<< FAILURE!
+java.lang.AssertionError: When the button is clicked and it's X's turn, the text contained by the button should become X. Now the button contained the text:  
+	at ticTacToe.TicTacToeApplicationTest.gameCanBeWonOrLost(TicTacToeApplicationTest.java:165)
+

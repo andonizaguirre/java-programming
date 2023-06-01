@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ticTacToe.TicTacToeApplicationTest" time="6.48" tests="8" errors="0" skipped="0" failures="5">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\andoni\Documents\NetBeansProjects\mooc-java-programming-ii\part13-Part13_13.TicTacToe\target\test-classes;C:\Users\andoni\Documents\NetBeansProjects\mooc-java-programming-ii\part13-Part13_13.TicTacToe\target\classes;C:\Users\andoni\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\andoni\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\andoni\.m2\repository\fi\helsinki\cs\tmc\edu-test-utils\0.4.2\edu-test-utils-0.4.2.jar;C:\Users\andoni\.m2\repository\org\testfx\testfx-junit\4.0.15-alpha\testfx-junit-4.0.15-alpha.jar;C:\Users\andoni\.m2\repository\org\testfx\testfx-core\4.0.15-alpha\testfx-core-4.0.15-alpha.jar;C:\Users\andoni\.m2\repository\org\assertj\assertj-core\3.11.1\assertj-core-3.11.1.jar;C:\Users\andoni\.m2\repository\org\testfx\openjfx-monocle\jdk-11+26\openjfx-monocle-jdk-11+26.jar;C:\Users\andoni\.m2\repository\org\openjfx\javafx-base\11-ea+25\javafx-base-11-ea+25-win.jar;C:\Users\andoni\.m2\repository\org\openjfx\javafx-controls\11-ea+25\javafx-controls-11-ea+25-win.jar;C:\Users\andoni\.m2\repository\org\openjfx\javafx-graphics\11-ea+25\javafx-graphics-11-ea+25-win.jar;C:\Users\andoni\.m2\repository\org\openjfx\javafx-base\11.0.2\javafx-base-11.0.2.jar;C:\Users\andoni\.m2\repository\org\openjfx\javafx-controls\11.0.2\javafx-controls-11.0.2.jar;C:\Users\andoni\.m2\repository\org\openjfx\javafx-graphics\11.0.2\javafx-graphics-11.0.2.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="America/Bogota"/>
+    <property name="user.country.format" value="ES"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-11.0.18.10-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\andoni\AppData\Local\Temp\surefire6189169033410179818\surefirebooter13710828666293075515.jar C:\Users\andoni\AppData\Local\Temp\surefire6189169033410179818 2023-06-01T01-36-17_640-jvmRun1 surefire10661661325776480448tmp surefire_014750115883865526431tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\andoni\Documents\NetBeansProjects\mooc-java-programming-ii\part13-Part13_13.TicTacToe\target\test-classes;C:\Users\andoni\Documents\NetBeansProjects\mooc-java-programming-ii\part13-Part13_13.TicTacToe\target\classes;C:\Users\andoni\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\andoni\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\andoni\.m2\repository\fi\helsinki\cs\tmc\edu-test-utils\0.4.2\edu-test-utils-0.4.2.jar;C:\Users\andoni\.m2\repository\org\testfx\testfx-junit\4.0.15-alpha\testfx-junit-4.0.15-alpha.jar;C:\Users\andoni\.m2\repository\org\testfx\testfx-core\4.0.15-alpha\testfx-core-4.0.15-alpha.jar;C:\Users\andoni\.m2\repository\org\assertj\assertj-core\3.11.1\assertj-core-3.11.1.jar;C:\Users\andoni\.m2\repository\org\testfx\openjfx-monocle\jdk-11+26\openjfx-monocle-jdk-11+26.jar;C:\Users\andoni\.m2\repository\org\openjfx\javafx-base\11-ea+25\javafx-base-11-ea+25-win.jar;C:\Users\andoni\.m2\repository\org\openjfx\javafx-controls\11-ea+25\javafx-controls-11-ea+25-win.jar;C:\Users\andoni\.m2\repository\org\openjfx\javafx-graphics\11-ea+25\javafx-graphics-11-ea+25-win.jar;C:\Users\andoni\.m2\repository\org\openjfx\javafx-base\11.0.2\javafx-base-11.0.2.jar;C:\Users\andoni\.m2\repository\org\openjfx\javafx-controls\11.0.2\javafx-controls-11.0.2.jar;C:\Users\andoni\.m2\repository\org\openjfx\javafx-graphics\11.0.2\javafx-graphics-11.0.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\andoni"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-01-17"/>
+    <property name="java.home" value="C:\Program Files\Eclipse Adoptium\jdk-11.0.18.10-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\andoni\Documents\NetBeansProjects\mooc-java-programming-ii\part13-Part13_13.TicTacToe"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\andoni\AppData\Local\Temp\surefire6189169033410179818\surefirebooter13710828666293075515.jar"/>
+    <property name="jdk.net.URLClassPath.disableClassPathURLCheck" value="true"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.18+10"/>
+    <property name="user.name" value="andoni"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-11.0.18+10"/>
+    <property name="localRepository" value="C:\Users\andoni\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\andoni\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.18"/>
+    <property name="user.dir" value="C:\Users\andoni\Documents\NetBeansProjects\mooc-java-programming-ii\part13-Part13_13.TicTacToe"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="user.language.format" value="es"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-11.0.18.10-hotspot\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Eclipse Adoptium\jdk-11.0.18.10-hotspot\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\PowerShell\7\;C:\Users\andoni\AppData\Local\Microsoft\WindowsApps;;C:\Users\andoni\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="11.0.18+10"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="turnChangesWhenGameIsPlayed" classname="ticTacToe.TicTacToeApplicationTest" time="2.049">
+    <failure message="When the button is clicked and it&apos;s O&apos;s turn, the text contained by the button should becode 0. Now the text became:  " type="java.lang.AssertionError">java.lang.AssertionError: When the button is clicked and it's O's turn, the text contained by the button should becode 0. Now the text became:  
+	at ticTacToe.TicTacToeApplicationTest.checkTurnChange(TicTacToeApplicationTest.java:130)
+	at ticTacToe.TicTacToeApplicationTest.turnChangesWhenGameIsPlayed(TicTacToeApplicationTest.java:102)
+</failure>
+  </testcase>
+  <testcase name="samePositionCannotBePlayedTwice" classname="ticTacToe.TicTacToeApplicationTest" time="0.729"/>
+  <testcase name="turnChangesWhenGameIsPlayed2" classname="ticTacToe.TicTacToeApplicationTest" time="0.724">
+    <failure message="When the button is clicked and it&apos;s the X turn, the text in the button should be X. Not the text in the button was:  " type="java.lang.AssertionError">java.lang.AssertionError: When the button is clicked and it's the X turn, the text in the button should be X. Not the text in the button was:  
+	at ticTacToe.TicTacToeApplicationTest.checkTurnChange(TicTacToeApplicationTest.java:125)
+	at ticTacToe.TicTacToeApplicationTest.turnChangesWhenGameIsPlayed2(TicTacToeApplicationTest.java:108)
+</failure>
+  </testcase>
+  <testcase name="turnChangesWhenGameIsPlayed3" classname="ticTacToe.TicTacToeApplicationTest" time="0.833">
+    <failure message="When the button is clicked and it&apos;s O&apos;s turn, the text contained by the button should becode 0. Now the text became:  " type="java.lang.AssertionError">java.lang.AssertionError: When the button is clicked and it's O's turn, the text contained by the button should becode 0. Now the text became:  
+	at ticTacToe.TicTacToeApplicationTest.checkTurnChange(TicTacToeApplicationTest.java:130)
+	at ticTacToe.TicTacToeApplicationTest.turnChangesWhenGameIsPlayed3(TicTacToeApplicationTest.java:114)
+</failure>
+  </testcase>
+  <testcase name="samePositionCannotBePlayedTwice2" classname="ticTacToe.TicTacToeApplicationTest" time="0.606">
+    <failure message="When the button is clicked and it&apos;s the X turn, the text in the button should be X. Not the text in the button was:  " type="java.lang.AssertionError">java.lang.AssertionError: When the button is clicked and it's the X turn, the text in the button should be X. Not the text in the button was:  
+	at ticTacToe.TicTacToeApplicationTest.checkThatSamePositionCannotBePlayedTwice(TicTacToeApplicationTest.java:200)
+	at ticTacToe.TicTacToeApplicationTest.samePositionCannotBePlayedTwice2(TicTacToeApplicationTest.java:144)
+</failure>
+  </testcase>
+  <testcase name="samePositionCannotBePlacedTwice3" classname="ticTacToe.TicTacToeApplicationTest" time="0.673"/>
+  <testcase name="componentsInPlace" classname="ticTacToe.TicTacToeApplicationTest" time="0.261"/>
+  <testcase name="gameCanBeWonOrLost" classname="ticTacToe.TicTacToeApplicationTest" time="0.536">
+    <failure message="When the button is clicked and it&apos;s X&apos;s turn, the text contained by the button should become X. Now the button contained the text:  " type="java.lang.AssertionError">java.lang.AssertionError: When the button is clicked and it's X's turn, the text contained by the button should become X. Now the button contained the text:  
+	at ticTacToe.TicTacToeApplicationTest.gameCanBeWonOrLost(TicTacToeApplicationTest.java:165)
+</failure>
+  </testcase>
+</testsuite>

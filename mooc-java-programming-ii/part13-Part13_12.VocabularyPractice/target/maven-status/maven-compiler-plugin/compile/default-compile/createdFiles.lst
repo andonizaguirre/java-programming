@@ -1,0 +1,4 @@
+userInterface\PracticeView.class
+logic\Dictionary.class
+application\VocabularyPracticeApplication.class
+userInterface\InputView.class
