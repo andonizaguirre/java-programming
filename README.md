@@ -19,7 +19,7 @@ The structure of this repository is as follows:
   - Part 13
   - Part 14
  
-Thanks to University of Helsinki for this excellent course.
+Thanks to the University of Helsinki and all the contributors that made this course an excellent learning resource.
 
 [Java Programming I Certificate](https://certificates.mooc.fi/validate/mgp87sf87ka)
 
